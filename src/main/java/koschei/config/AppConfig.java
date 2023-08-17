@@ -18,4 +18,9 @@ public class AppConfig {
     public static Needle7 getDeth(Deth8 deth) {
         return new Needle7(deth);
     }
+    @Bean
+    public static Egg6 getNeedle(Needle7 needle){
+        return new Egg6(needle);
+    }
+
 }
